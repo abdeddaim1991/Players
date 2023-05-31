@@ -1,0 +1,1 @@
+//Data class that represents the response received from the API when searching for teams

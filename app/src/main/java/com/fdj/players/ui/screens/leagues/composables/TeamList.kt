@@ -1,0 +1,1 @@
+//Composable function to render a list of teams

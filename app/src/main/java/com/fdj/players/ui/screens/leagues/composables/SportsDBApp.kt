@@ -1,0 +1,1 @@
+// Class that handles the rendring of interface's components

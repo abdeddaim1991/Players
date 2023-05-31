@@ -1,0 +1,1 @@
+//Interface that makes network requests to retrieve data related to leagues and teams

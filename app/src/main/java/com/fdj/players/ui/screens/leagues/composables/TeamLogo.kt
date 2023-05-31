@@ -1,0 +1,1 @@
+//Composable function to render the team logo
