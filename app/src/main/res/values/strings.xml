@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Players</string>
+    <string name="error_api">Technical error</string>
+    <string name="error_network">No internet connection available.</string>
+</resources>
