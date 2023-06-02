@@ -31,7 +31,7 @@ class TeamList {
                         content = {
                             lines[index].forEach { team ->
                                 // Display team logo if the strTeamLogo field is not empty
-                                TeamLogo().notEmptyLogo(
+                                TeamLogo().logo(
                                     logoUrl = team.strTeamBadge,
                                     width = 180.dp,
                                     height = 100.dp
