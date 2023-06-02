@@ -20,6 +20,26 @@ import com.fdj.players.R
 
 class TeamLogo {
 
+
+    /**
+     * Composable function to render the team logo based on the logo URL.
+     *
+     * @param logoUrl The URL of the team logo.
+     * @param width The width of the team logo.
+     * @param height The height of the team logo.
+     */
+    @Composable
+    fun logo(logoUrl: String?, width: Dp, height: Dp) {
+        if (!logoUrl.isNullOrEmpty()) {
+            // Render the team logo when the logo URL is not empty
+            notEmptyLogo(logoUrl = logoUrl, width = width, height = height)
+        } else {
+            // Render a default empty logo when the logo URL is empty or null
+            emptyLogo(width = width, height = height)
+        }
+    }
+
+
     /**
      * Composable function to render the team logo when the logo URL is not empty.
      *
